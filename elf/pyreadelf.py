@@ -1,5 +1,10 @@
 #!/usr/bin/python
 
+# This file implements an ELF parsing tool similar to readelf,
+# but information is emitted in XML format for further processing
+# by other programs. It relies on the bintools elf library, which
+# unfortunately seems to be no longer developed.
+
 # Copyright (c) 2014-2016, Jonas Zaddach <jonas.zaddach@gmail.com> 
 # All rights reserved.
 # Redistribution and use in source and binary forms, with or without
